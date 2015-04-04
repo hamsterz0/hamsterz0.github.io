@@ -1,6 +1,6 @@
-html{
+html body{
 	overflow-x: hidden;
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: Raleway,sans-serif;
 }
 .jumbotron {
 	height: 750px;
@@ -36,8 +36,10 @@ html{
 	background-attachment: fixed;
 }
 #aboutme #container {
-	padding-top: 150px;
+	padding-top: 40px;
 	padding-bottom: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
 }
 #aboutme #container p {
 	position: relative;
@@ -78,3 +80,21 @@ table td {
 #connectwithme #container i {
 	padding-top: 40px;
 }
+#projects{
+	background-image: url("images/projectimage.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	margin-top: -20px;
+}
+#projects #container {
+	padding-top: 50px;
+}
+#projects #container p{
+	padding-top: 50px;
+}
+#projects #container span{
+	padding-top: 70px;
+	text-align: center;
+}
+
+	
