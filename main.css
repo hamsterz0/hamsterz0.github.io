@@ -6,6 +6,9 @@ html body{
 	height: 750px;
 	width: 100%;
 	background-image: url("images/homebackground.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-size: cover;
 	background-attachment: fixed;
 	padding: 0;
