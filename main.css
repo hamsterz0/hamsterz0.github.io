@@ -47,9 +47,6 @@ html body{
 	width: 200px;
 	height: 200px;
 	border-radius: 150px;
-	-webkit-border-radius: 150px;
-	-moz-border-radius: 150px;
-	background-image: url("images/My_Image.jpg");
 }
 
 .whatido {
