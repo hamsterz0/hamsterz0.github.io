@@ -43,6 +43,10 @@ html body{
 	text-align: center;
 	color: white;
 }
+.aboutme .container #button{
+	margin-top: 70px;
+}
+
 #circular{
 	width: 200px;
 	height: 200px;
@@ -59,6 +63,7 @@ html body{
 }
 .aboutme .container {
 	padding: 40px 100px 50px 100px;
+		text-align: center;
 }
 .aboutme .container p {
 	position: relative;
@@ -87,17 +92,19 @@ html body{
 	font-size: 21px;
 	color: white;
 }
-.blog{
-	background-image: url("images/projectimage.jpg");
+#services{
+	background-image: url("images/code.jpg");
 	background-size: cover;
+	color: transparent;
 	background-attachment: fixed;
-	height: 300px;
-	font color: white;
+	height: 400px;
 }
-.blog .container h2{
-	text-align: center;
+
+#services .container{
 	color: white;
+	font-size: 22px;
 }
+
 .portfolio{
 	height: 750px;
 }
