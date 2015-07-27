@@ -1,10 +1,31 @@
 html body{
-	overflow-x: hidden;
 	font-family: "Times New Roman", Times, serif;
+	margin:0;
+	position: relative;
+}
+.menu{
+    background: #202024;
+    left: -285px;  /* start off behind the scenes */
+    height: 100%;
+    position: fixed;
+    width: 285px;
+
+}
+.menu .container ul{
+	list-style-type: none;
+	padding: 50px 30px;
+	font-size: 30px;
+	margin: 30px 0;
+}
+.menu-icon{
+    padding: 60px;
+    position: fixed;
 }
 .jumbotron {
 	height: 750px;
 	width: 100%;
+	overflow: auto;
+	min-height:100%;
 	background-image: url("images/homebackground.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -12,92 +33,79 @@ html body{
 	background-size: cover;
 	background-attachment: fixed;
 	padding: 0;
-	margin-bottom: 0px;
-	margin-top: -70px;
+	margin:0;
 	background-position: center top;
 }
 
 .jumbotron .container {
 	position: relative;
-	top: 200px;
+	top: 15px;
 	text-align: center;
 	color: white;
 }
-.whatido .container {
-	padding-bottom: 10px;
+#circular{
+	width: 200px;
+	height: 200px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
 }
 
-#whatido {
+.whatido {
 	margin: 0;
 	padding: 0;
 }
-#aboutme {
-	margin-bottom: 0px;
-	margin-top: -30px;
-	position: relative;
-	background-color: #efefef;
+.aboutme {
+	margin-top:0;
 	background-attachment: fixed;
 }
-#aboutme #container {
-	padding-top: 40px;
-	padding-bottom: 50px;
-	padding-left: 100px;
-	padding-right: 100px;
+.aboutme .container {
+	padding: 40px 100px 50px 100px;
 }
-#aboutme #container p {
+.aboutme .container p {
 	position: relative;
 	padding-left: 155px;
 	padding-right: 115px;
 	padding-top: 35px;
 }
-#whatido #container .row .col-md-4 {
-	padding-top: 50px;
-	padding-left: 50px;
-}
-#whatido #container {
-	font color="white";
-	padding-top: 130px;
-}
-#whatido {
-	position: relative;
-	margin-top: -19px;
-	height: 400px;
-}
-table td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-#connectwithme {
+.connectwithme {
 	background-image: url("images/connectwithmeimage.jpg");
 	background-attachment: fixed;
 	background-size: cover;
 }
-#connectwithme #container {
+.connectwithme .container {
 	margin-top: -20px;
 	padding-top: 35px;
+	color: black;
 }
 .jumbotron .container #icons a{
 	margin-right: 22px;
 	margin-left: 22px;
 }
-#connectwithme #container i {
+.connectwithme .container i {
 	padding-top: 40px;
 }
-#projects{
+#credits{
+	font-size: 21px;
+	color: white;
+}
+.blog{
 	background-image: url("images/projectimage.jpg");
 	background-size: cover;
 	background-attachment: fixed;
-	margin-top: -20px;
+	height: 300px;
+	font color: white;
 }
-#projects #container {
-	padding-top: 50px;
-}
-#projects #container p{
-	padding-top: 50px;
-}
-#projects #container span{
-	padding-top: 70px;
+.blog .container h2{
 	text-align: center;
+	color: white;
 }
-
-	
+.portfolio{
+	height: 750px;
+}
+.portforlio .p {
+	margin-top: 20px;
+}
+#portfolio{
+	background-color: #C9C9B1;
+}
