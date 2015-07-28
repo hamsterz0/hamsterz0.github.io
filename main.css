@@ -39,51 +39,39 @@ html body{
 
 .jumbotron .container {
 	position: relative;
-	top: 15px;
 	text-align: center;
 	color: white;
 }
-.aboutme .container #button{
-	margin-top: 70px;
-}
-
 #circular{
 	width: 200px;
 	height: 200px;
 	border-radius: 150px;
 }
-
-.whatido {
-	margin: 0;
-	padding: 0;
+.jumbotron .container #icons .icond{
+	display: inline-block;
+	padding: 10px;
 }
 .aboutme {
-	margin-top:0;
 	background-attachment: fixed;
 }
 .aboutme .container {
-	padding: 40px 100px 50px 100px;
-		text-align: center;
+	padding: 0 40px;
+	text-align: center;
 }
-.aboutme .container p {
-	position: relative;
-	padding-left: 155px;
-	padding-right: 115px;
-	padding-top: 35px;
+.aboutme .container .aboutmetext p{
+	padding: 0 100px;
 }
-.connectwithme {
-	background-image: url("images/connectwithmeimage.jpg");
-	background-attachment: fixed;
+#services{
+	background-image: url("images/code.jpg");
 	background-size: cover;
+	color: transparent;
+	background-attachment: fixed;
+	height: 100%;
 }
-.connectwithme .container {
-	margin-top: -20px;
-	padding-top: 35px;
-	color: black;
-}
-.jumbotron .container #icons a{
-	margin-right: 22px;
-	margin-left: 22px;
+
+#services .container{
+	color: white;
+	font-size: 22px;
 }
 .connectwithme .container i {
 	padding-top: 40px;
@@ -92,25 +80,20 @@ html body{
 	font-size: 21px;
 	color: white;
 }
-#services{
-	background-image: url("images/code.jpg");
-	background-size: cover;
-	color: transparent;
-	background-attachment: fixed;
-	height: 400px;
-}
 
-#services .container{
-	color: white;
-	font-size: 22px;
-}
 
 .portfolio{
-	height: 750px;
-}
-.portforlio .p {
-	margin-top: 20px;
+	height: 100%;
 }
 #portfolio{
 	background-color: #C9C9B1;
+}
+.connectwithme {
+	background-image: url("images/connectwithmeimage.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
+}
+.connectwithme .container {
+	color: white;
 }
