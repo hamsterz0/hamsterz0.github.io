@@ -1,3 +1,7 @@
+html{
+    webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
 html body{
 	font-family: "helvetica";
 	margin:0;
@@ -125,11 +129,11 @@ hr.small {
     margin: 5px 5px 0 0;
 }
 .jumbotron {
-	height: 750px;
-	width: 100%;
-	overflow: auto;
+	height: 100vh;
+    width: 100vw;
+	overflow-x: auto;
 	min-height:100%;
-	background-image: url("images/homebackground.jpg");
+	background-image: url("images/test.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -139,7 +143,6 @@ hr.small {
 	margin:0;
 	background-position: center top;
 }
-
 .jumbotron .container {
 	position: relative;
 	text-align: center;
@@ -152,7 +155,8 @@ hr.small {
 }
 .jumbotron .container #icons .icond{
 	display: inline-block;
-	padding: 10px;
+	padding: 15px;
+    padding-right: 25px;
 }
 .aboutme {
 	background-attachment: fixed;
