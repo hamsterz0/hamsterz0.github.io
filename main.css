@@ -1,5 +1,5 @@
 html body{
-	font-family: "Times New Roman", Times, serif;
+	font-family: "helvetica";
 	margin:0;
 	position: relative;
 }
@@ -189,7 +189,7 @@ hr.small {
 	height: 100%;
 }
 #portfolio{
-	background-color: #C9C9B1;
+	background-color: #FFFFFF;
 }
 .connectwithme {
 	background-image: url("images/connectwithmeimage.jpg");
@@ -202,4 +202,8 @@ hr.small {
 }
 .connectwithme a{
     color: white;
+}
+.imageborder {
+    border-width: 10px;
+    border-color: Black;
 }
