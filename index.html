@@ -18,21 +18,21 @@
     <link rel="stylesheet" href="css/font-awesome-4.6.3/css/font-awesome.min.css">
 </head>
 <body>
-    <div class="container-fluid full-page"> 
+
+    <div class="container-fluid full-page" id="particles-js"> 
         <div class="main-intro text-center">
-           <img src="img/main-page-img.jpg" alt="" class="img-responsive img-circle text-center" id="fix-image-size">
-            <h1 class="page-header text-center">
-                Arnav Garg
-            </h1>
-            <p>University of Texas at Arlington, '18</p>   
-            <ul id="links" class="text-center">
-                <li class="fa fa-facebook-official fa-2x"
+<!--           <img src="img/main-page-img.jpg" alt="" class="img-responsive img-circle" id="fix-image-size">-->
+            <div id="arnav" class="text-styles"></div>
+
+            <ul id="links">
+                <li class="fa fa-facebook-official fa-2x color-white"
                 ></li>
-                <li class="fa fa-linkedin fa-2x"></li>
-                <li class="fa fa-github fa-2x"></li>
-                <li class="fa fa-twitter fa-2x"></li>
+                <li class="fa fa-linkedin fa-2x color-white"></li>
+                <li class="fa fa-github fa-2x color-white"></li>
+                <li class="fa fa-twitter fa-2x color-white"></li>
             </ul>            
-        </div>
+
+            </div>
     </div>
     
     <div class="container-fluid half-page">
@@ -65,8 +65,30 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     
+    <script type="application/javascript" src="js/theater.min.js"></script>
+    <script type="application/javascript" src="js/particles.js"></script>
     <!--My Script to handle jQuery-->
     <script type="application/javascript" src="js/script.js"></script>
+    
+    <script>
+        
+        document.addEventListener("contextmenu", function(e){
+    e.preventDefault();
+}, false);
+        
+        /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+        particlesJS.load('particles-js', 'js/particles.json', function() {
+          console.log('callback - particles.js config loaded');
+        });
+        
+          var theater = theaterJS()
+
+          theater
+            .addActor('arnav')
+            .addScene('arnav: Hello', 400)
+            .addScene('arnav: I\'m Arnav Garg', 200)
+        
+    </script>
     
 </body>
 </html>
