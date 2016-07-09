@@ -1,3 +1,7 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
 div.container-fluid .main-intro {
     margin: 0;
     position: absolute;
@@ -5,41 +9,71 @@ div.container-fluid .main-intro {
     left: 50%;
     margin-right: -50%;
     padding: 30px;
-    transform: translate(-50%, -50%) 
+    transform: translate(-50%, -50%); 
 }
 
+
 #links li{
-    padding: 20px
+    padding: 20px;
 }
 
 div.full-page {
     height: 100vh;
-    background-color: #2c3e50;
 }
 
 .text-styles {
-    color: white;
+    color: black;
     font-size: 3em;
 }
 
 
 .color-white {
-    color: white;
+    color: black;
 }
 
 #fix-image-size {
     
     height: 330px;
-    width: 270px;
+    width: 330px;
     margin: 0 auto;
     border: solid 5px thick;
 }
 
 div.half-page {
-    height: 50vh;
-    background-color: azure
+    height: 53vh;
+}
+
+div.title-page {
+    height: 28vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+div.title-content {
+    align-self: center;
+    font-size: 45px;
 }
 
 #about-heading {
     padding: 10px;
+}
+
+#project_section {
+    margin: 50px;
+}
+
+#project_section .row{
+    margin-bottom: 25px;
+}
+
+#project_section .row p{
+    font-size: 1.6em;
+}
+
+
+/*CRAP I NEED TO REPLACE*/
+.placeholder_color {
+    background-image: url(../img/placeholder.png);
+/*    background-repeat: no-repeat;*/
+    background-attachment: fixed
 }
