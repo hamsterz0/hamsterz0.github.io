@@ -117,6 +117,44 @@ div.title-content {
     background-attachment: fixed;
 }
 
+#code {
+    background-image: url(../img/code.jpg);
+    background-size: cover;
+    backface-visibility: hidden;
+    background-attachment: fixed;
+}
+
+#resume-button {
+    font-size: 2em;
+}
+
+
+/*HOVER - CSS*/
+
+#links li:hover {
+    cursor: pointer
+}
+
+.fa-facebook-official:hover {
+    color: #3B5998
+}
+
+.fa-linkedin:hover {
+    color: #0077b5
+}
+
+.fa-twitter:hover {
+    color: #00aced
+}
+
+.fa-github:hover {
+    color: #767676
+}
+
+#resume-button:hover i{
+    color: darkred;
+}
+
 /*CRAP I NEED TO REPLACE*/
 .placeholder_color {
     background-image: url(../img/placeholder.png);
