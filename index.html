@@ -21,7 +21,6 @@
         <div class="main-intro text-center">
 
             <div id="arnav" class="text-styles" style="font-weight: 400; font-size: 5em"></div>
-            
                        
 
             </div>
@@ -101,9 +100,10 @@
     
     <div class="clearfix"></div>
 
-    <div class="container-fluid title-page placeholder_color">
+    <div class="container-fluid title-page" id="research-title">
       <div class="title-content text-center text3d">
-            <p>Some Experience That I have gained over the years..</p>
+            <p>I <i class="fa fa-heart" aria-hidden="true"></i>
+ doing research .. </p>
       </div>
     </div>
     
@@ -140,7 +140,7 @@
     
     <div class="clearfix"></div>
     
-    <div class="container-fluid title-page placeholder_color">
+    <div class="container-fluid title-page placeholder_color" id="reach-me">
       <div class="title-content text-center text3d">
             <p>Here's how you can reach me!</p>
       </div>
@@ -191,6 +191,16 @@
 //            .addScene('arnav:  Hello', 600)
             .addScene('arnav:  Hello, I\'m Arnav Garg.', 600)
         
+    </script>
+    
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
     </script>
     
 </body>
