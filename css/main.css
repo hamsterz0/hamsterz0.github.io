@@ -1,5 +1,5 @@
 * {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Dosis', sans-serif;
 }
 
 div.container-fluid .main-intro {
@@ -39,30 +39,36 @@ div.full-page {
     border: solid 5px thick;
 }
 
-div.half-page {
+.half-page {
     height: 53vh;
 }
 
+.quarter-page {
+    height: 30vh;
+}
+
 div.title-page {
-    height: 28vh;
+    height: 40vh;
     display: flex;
     justify-content: center;
     position: relative;
+    color: white;
 }
 div.title-content {
     align-self: center;
-    font-size: 45px;
+    font-size: 5em;
+    font-weight: 600;
 }
 
 #about-heading {
     padding: 10px;
 }
 
-#project_section {
+#project_section .wrap-rows{
     margin: 50px;
 }
 
-#project_section .row{
+#project_section .wrap-rows .row{
     margin-bottom: 25px;
 }
 
@@ -70,6 +76,28 @@ div.title-content {
     font-size: 1.6em;
 }
 
+.padding {
+    padding: 10px;
+}
+
+.margin {
+    margin: 0px;
+}
+
+.text3d {
+    text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
 
 /*CRAP I NEED TO REPLACE*/
 .placeholder_color {
