@@ -161,3 +161,8 @@ div.title-content {
 /*    background-repeat: no-repeat;*/
     background-attachment: fixed
 }
+
+.img-config {
+    height: 300px;
+    width: 400px;
+}
