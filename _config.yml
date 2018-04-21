@@ -17,7 +17,7 @@ resume: true
 resume-external: true
 resume-url: assets/Resume.pdf
 
-url: arnavgarg.me
+url: https://thearnavgarg.github.io
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
