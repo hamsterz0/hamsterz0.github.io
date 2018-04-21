@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<generator uri="http://jekyllrb.com" version="3.6.2">Jekyll</generator>
+<link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
+<link href="http://localhost:4000/" rel="alternate" type="text/html" />
+<updated>2018-04-21T00:14:07-05:00</updated>
+<id>http://localhost:4000/</id>
+<title>Arnav Garg</title>
+<subtitle>A blog about technology and stuff related</subtitle>
+<entry>
+<title>My First Post</title>
+<link href="http://localhost:4000/My-First-Post/" rel="alternate" type="text/html" title=" My First Post" />
+<published>2018-03-17T13:48:00-05:00</published>
+<updated>2018-03-17T13:48:00-05:00</updated>
+<id>http://localhost:4000/My-First-Post</id>
+<content type="html" xml:base="http://localhost:4000/My-First-Post/">&lt;p&gt;Poop. :poop:&lt;/p&gt;
+</content>
+<author>
+<name>thearnavgarg</name>
+</author>
+<category term="blog" />
+<category term="FirstPost" />
+<summary>Poop. :poop:</summary>
+</entry>
+<entry>
+<title>Project Under Construction</title>
+<link href="http://localhost:4000/Project-Under-Construction/" rel="alternate" type="text/html" title="Project Under Construction" />
+<published>2018-01-23T22:10:00-06:00</published>
+<updated>2018-01-23T22:10:00-06:00</updated>
+<id>http://localhost:4000/Project-Under-Construction</id>
+<content type="html" xml:base="http://localhost:4000/Project-Under-Construction/">&lt;p&gt;Under construction.&lt;/p&gt;
+</content>
+<author>
+<name>arnavgarg</name>
+</author>
+<category term="project" />
+<category term="jekyll" />
+<summary>Under construction.</summary>
+</entry>
+</feed>
