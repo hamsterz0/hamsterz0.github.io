@@ -56,9 +56,9 @@ email: thearnavgarg@gmail.com
 authors:
     johndoe:
         name: Arnav Garg
-        bio: A Man who travels the world eating noodles
+        bio: I am a software developer, open source enthusiast and a caffeine addict.
         external-image: false
-        picture: assets/images/profile_img1.jpg
+        picture: assets/images/profile_img2.jpg
         twitter: thearnavgarg
 
 # do you want a larger site? change the option below
