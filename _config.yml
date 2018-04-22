@@ -57,7 +57,7 @@ authors:
     johndoe:
         name: Arnav Garg
         bio: I am a software developer, open source enthusiast and a caffeine addict.
-        external-image: false
+        external-image: true
         picture: assets/images/profile_img2.jpg
         twitter: thearnavgarg
 
