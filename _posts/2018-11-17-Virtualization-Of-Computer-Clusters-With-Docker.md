@@ -12,7 +12,7 @@ tag:
   - Hadoop
   - Clusters
 category: blog
-author: thearnavgarg
+author: arnavgarg
 description: Virtualization of Computer Clusters with Docker
 ---
 
