@@ -1,7 +1,7 @@
 ---
 title: "Virtualization of Computer Clusters with Docker"
 layout: post
-date: 2017-03-17 13:48
+date: 2018-11-17 13:48
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
