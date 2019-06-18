@@ -3,7 +3,7 @@ title: About
 layout: page
 ---
 
-I am a graduate student completing my MS in Computer Science at University of California Los Angeles (UCLA).
+I am a graduate student completing my Masters in Computer Science at University of California -- Los Angeles (UCLA).
 
 This Summer 2019 I'll be interning with the Analysis and Experimentation team at <a href="https://microsoft.com/" target="_blank">Microsoft</a>. I previously interned at <a href="https://nod.com/" target="_blank">Nod Labs</a>.
 
