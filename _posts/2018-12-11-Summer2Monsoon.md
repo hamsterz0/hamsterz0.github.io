@@ -17,3 +17,5 @@ Image-to-image translation involves learning a mapping between in an input and a
 
 
 You can read more about the project here: [LINK](../assets/papers/summer2monsoon.pdf)
+
+Code: Our Summer and Monsoon dataset (~10K images) available upon request. CycleGAN repo [LINK](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
