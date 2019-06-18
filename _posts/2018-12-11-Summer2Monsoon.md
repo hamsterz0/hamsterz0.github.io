@@ -1,7 +1,7 @@
 ---
 title: "Summer2Monsoon: Using CycleGAN for Image-to-Image Translation"
 layout: post
-date: 2019-03-22 1:13
+date: 2018-12-11 3:11
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
