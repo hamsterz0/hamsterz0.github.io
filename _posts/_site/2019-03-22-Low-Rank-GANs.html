@@ -1,0 +1,10 @@
+<script type="text/javascript" async="" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+<h1 id="abstract">Abstract</h1>
+
+<p>Generative Adversarial Networks are hard to train and several recent works have focused on improved regularization by controlling the spectra of weight matrices. Most recently, Jiang et. al proposed a new reparameterization technique in his paper “On computationand generalization of generative adversarial networks under spectrum control” which learns the Singular Value Decomposition of each weight matrix in the network - thus, allowing us to directly manipulate the spectra of the matrices. Our work builds on this existing body of literature by introducing a generalized method for training neural networks using this reparameterization and reducing the number of parameters by restricting the rank of each weight matrix. For a GAN, we find a theoretical upper bound on the distance between the original discriminator and its k-rank approximation along with good results on the CIFAR-10 dataset by using matrices with restricted rank. Furthermore, we demonstrate high accuracy on the MNIST dataset by using low rank weight matrices and show a significant decrease in the number of parameters required as compared to a network composed of traditional convolutional layers.</p>
+
+<p>You can read more here: <a href="../assets/papers/gans.pdf">LINK</a></p>
+
+<p>Code: <a href="https://github.com/thearnavgarg/GAN-Stabilization">LINK</a></p>

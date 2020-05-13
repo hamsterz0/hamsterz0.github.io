@@ -44,3 +44,7 @@ function draw() {
     drops[i].show();
   }
 }
+
+
+
+
